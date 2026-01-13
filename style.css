@@ -109,3 +109,42 @@ nav ul li a:hover {
   color: #fd8f0e;
   font-weight: 600;
 }
+/* features-youlove */
+.features-youlove {
+  margin: 30px 0;
+  display: flex;
+  gap: 50px;
+}
+.text-features {
+  width: 50%;
+}
+.image-features {
+  width: 50%;
+}
+.image-features img {
+  width: 100%;
+  
+}
+.h2-border {
+  border-left: 5px solid #fd8f0e;
+  padding-left: 5px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.text-features-subtitle {
+  color: #727272;
+  margin-top: 20px;
+}
+
+.features-container div {
+  padding: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  margin: 33px 0;
+}
+.features-container div h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.features-container div p{
+  color: #727272;
+}
