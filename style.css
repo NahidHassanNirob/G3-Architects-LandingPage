@@ -78,9 +78,39 @@ nav ul li a:hover {
 /* our features  */
 .ourFeaturesContainer{
     display: flex;
+    align-items: center;
+    gap: 50px;
+   
 
 }
 .teamContainer{
+ width: 50%;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 20px;
+}
+.teamContainer div img{
+  width: 100%;
+}
+.features-text-container{
+ width: 50%;
 
+}
+.features-text-container p{
+  margin: 15px 0;
+  color: #727272;
+}
+.features-text-container span{
+  font-size: 30px;
+}
+.color-span{
+  color: #727272;
+}
+.color-span2{
+  font-weight: 600;
+}
+.color-span3{
+  color: #fd8f0e;
+  font-weight: 600;
 }
 
